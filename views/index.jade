@@ -1,0 +1,26 @@
+html
+  head
+    title Trip Advisor
+    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+    block headscripts 
+     script(src="../js/login.js" type="text/javascript")
+
+  body
+    .container
+      .main
+        h1 Trip Advisor
+        form#form_id(method='post', name='tripform')
+          label User Name :
+          input#username(type='text', name='username')
+          label Password :
+          input#password(type='password', name='password')
+          input#submit(type='button', value='Login', onclick='validate()')
+        span
+          br
+          b.help
+            | User Name : TestUser
+            br
+            | Password : user123
+            block scripts 
+ 
+      

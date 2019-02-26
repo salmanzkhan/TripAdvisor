@@ -1,0 +1,44 @@
+.dropdownGridfs {
+    position: relative;
+    display: inline-block;
+     float: left;
+     width: 10%;
+    text-align: center;
+    color: white;
+    font-size: 36px;    
+}
+
+.list_restaurants {
+    background-color: #555;
+    color: #ffffff;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.content_list {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 130px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.dropdownGridfs:hover .content_list {
+    display: block;
+}
+.content_list a {
+    color: black;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownGridfs:hover .list_restaurants {
+    background-color: #000000;
+}
+.content_list a:hover {background-color: #f1f1f1}
+
+
+

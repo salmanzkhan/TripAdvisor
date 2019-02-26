@@ -1,0 +1,34 @@
+doctype html
+html
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+  link(rel='stylesheet', type='text/css', href='/stylesheets/dropdown.css')
+  link(rel='stylesheet', type='text/css', href='/stylesheets/success.css')
+  body
+     
+   .icon-bar
+      a(href='success')
+        i.fa.fa-home
+      a(href='/geo')
+        i.fa.fa-globe
+      
+      form(role='form', action='/try', method='POST')
+        button.button(type='submit', style='float:right') Submit  
+        input(type='text', style='float:right', name='search_text', placeholder='Search')
+        
+         
+.dropdownGridfs(style='float:left;')
+  br
+  button.list_restaurants Top Restaurants
+    i.fa.fa-camera 
+  .content_list
+      a(href='/file/image7.JPG') Algarve
+      a(href='/file/image8.JPG') Windmills
+      a(href='/file/image11.JPG') Casanostra
+      a(href='/file/image1.JPG') Kundanahalli
+      a(href='/file/image9.JPG') chungs
+      a(href='/file/image4.JPG') Marathalli
+      a(href='/file/image6.JPG') Canopi
+    
+   
+        

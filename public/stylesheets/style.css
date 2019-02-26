@@ -1,0 +1,68 @@
+body 
+{
+  background-image : url("Food.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+background-color: #FEFFED;
+padding: 30px 35px;
+margin: -10px -50px;
+text-align:center;
+border-radius: 25px 25px 0 0;
+}
+
+div.container{
+width: 500px;
+height: 600px;
+margin:30px auto;
+
+}
+
+input[type=text],input[type=password]{
+width: 100%;
+height: 38px;
+padding: 5px;
+margin-bottom: 25px;
+margin-top: 5px;
+border: 2px solid #ccc;
+color: #4f4f4f;
+font-size: 14px;
+border-radius: 6px;
+}
+
+label{
+color: #000000;
+font-size: 14px;
+font-weight: bold;
+}
+
+.help{
+color:green;
+}
+div.main{
+width: 300px;
+padding: 10px 50px 25px;
+border: 2px solid gray;
+border-radius: 10px;
+float:left;
+margin-top:50px;
+background-color:#ffffe6;
+}
+input[type=button]{
+font-size: 16px;
+background: linear-gradient(#ffbc00 10%, #ffdd7f 100%);
+border: 1px solid #e5a900;
+color: #4E4D4B;
+font-weight: bold;
+cursor: pointer;
+width: 100%;
+border-radius: 5px;
+padding: 12px ;
+outline:none;
+}
+input[type=button]{
+background: linear-gradient(#ffdd7f);
+}

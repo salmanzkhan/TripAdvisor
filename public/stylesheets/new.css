@@ -1,0 +1,41 @@
+body 
+{
+  background-image : url("lunchtable.jpg");
+  background-position: center;
+  background-blend-mode: lighten;
+   background-color: rgba(255,255,240,0.1);
+  background-repeat: no-repeat;
+   background-size: cover;
+}
+table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td, th {
+                border: 1px solid #000;
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+             tr:nth-child(odd) {
+                background-color: #acacac;
+            }
+.button {
+    background-color: #4CAF50;
+    border: 0.5px solid #000000;;
+	border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 0px 2px;
+    cursor: pointer;
+    font-weight: bold;
+}

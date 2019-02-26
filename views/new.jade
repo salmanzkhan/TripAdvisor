@@ -1,0 +1,41 @@
+doctype html
+html
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+  link(rel='stylesheet', type='text/css', href='/stylesheets/new.css')
+  link(rel='stylesheet', type='text/css', href='/stylesheets/table.css')
+  body
+    .icon-bar
+      a(href='success')
+        i.fa.fa-home
+      a(href='/geo')
+        i.fa.fa-globe
+      form(role='form', action='/try', method='POST')
+        page
+        h3
+    table
+            tr
+                th RestaurantURL
+                th Name
+                th Phone
+                th City
+                th Ranking
+                th Comment
+            tr
+                td #[a(href="#{RestaurantsDetails.RestaurantURL}") URL]
+                td #{RestaurantsDetails.Name}
+                td #{RestaurantsDetails.Phone}
+                td #{RestaurantsDetails.City}
+                td #{RestaurantsDetails.Ranking}
+                td #{RestaurantsDetails.Recommended}               
+               p.
+                 <input type="button" class=button style="float:right" value="GO BACK" onclick="history.back()">
+
+  comment
+     br
+     br
+     form(role='form', action='/update', method='POST')
+        textarea(rows='5', cols='40',style='float:left', name='Update_Comment', placeholder='Update Comment')
+        button.button(type='submit', style='float:left') UPDATE
+       
+    

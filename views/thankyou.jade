@@ -1,0 +1,22 @@
+doctype html
+html
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+  link(rel='stylesheet', type='text/css', href='/stylesheets/success.css')
+  body
+     
+   .icon-bar
+      a(href='success')
+        i.fa.fa-home
+      a(href='/geo')
+        i.fa.fa-globe
+      form(role='form', action='/try', method='POST')
+        button.button(type='submit', style='float:right') Submit  
+        input(type='text', style='float:right', name='search_text', placeholder='Search')
+     -length = Restaurentslist.length
+      h2 Number of results found: #{length}  
+    
+     ol.content
+    each Res, i in Restaurentslist
+      li#Restaurents_list_item
+        a(href='new?id=#{Res._id}',style='color:black') #{Res.Name} in #{Res.City}

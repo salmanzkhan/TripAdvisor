@@ -1,0 +1,72 @@
+body 
+{
+  background-image : url("lunchtable.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover ;
+ 
+
+}
+
+body {margin:0;}
+
+
+.icon-bar {
+    width: 100%;
+	height:9%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 10%;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+input[type=text] {
+    width: 20%;
+    height:8%;
+    box-sizing: ;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search_icon.jpg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 9px 40px;
+    
+}
+
+input[type=text]:focus {
+    width: 20%;
+}
+.button {
+    background-color: #4CAF50;
+    border: 0.5px solid #000000;;
+	border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 0px 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.content{
+	
+	font-size: 16px;
+	line-height: 2.5;
+	font-size: 150%;
+	font-weight: bold;
+	color:#000;
+}
+
